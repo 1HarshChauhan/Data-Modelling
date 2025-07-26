@@ -17,5 +17,5 @@ const hotelSchema=new mongoose.Schema(
     },
     {timestamps:true}
 )
-
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhdevdvdggbbgb
 export const Hotel=mongoose.model("Hotel",hotelSchema);
