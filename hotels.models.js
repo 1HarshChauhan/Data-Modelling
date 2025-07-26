@@ -7,9 +7,8 @@ const hotelSchema=new mongoose.Schema(
             type:String,
             required:true,
         },
-        year:{
-            type:Number,
-            required:true
+        years:{
+            type:Number
         },
         noOfRooms:{
             type:Number,
