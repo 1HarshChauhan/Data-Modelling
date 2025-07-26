@@ -14,7 +14,6 @@ const hotelSchema=new mongoose.Schema(
             type:Number,
             default:0
         }
-    },
-    {timestamps:true}
+    }
 )
 export const Hotel=mongoose.model("Hotel",hotelSchema);
